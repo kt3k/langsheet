@@ -1,4 +1,4 @@
-# langsheet v0.1.0
+# langsheet v1.0.0
 
 > Static site generator for creating language x phrase key data table
 
