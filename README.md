@@ -73,12 +73,44 @@ data/i18n/kr.json:
 }
 ```
 
+## Serve your data table
+
 Then you hit the command `./node_modules/.bin/langsheet`, and it outputs:
 
 ```
+$ ./node_modules/.bin/langsheet
+Requiring external module require-yaml
+Using: /Users/kt3k/t/langsheet/example/langsheet.yml
+langsheet [00:06:16] serving
+langsheet [00:06:16] Reading: data/i18n/*.json
+langsheet [00:06:16] Reading: /Users/kt3k/t/langsheet/tacit.min.css
+langsheet [00:06:16] Server started at: http://localhost:26000/
+langsheet [00:06:16] See debug info at: http://localhost:26000/__langsheet__
+langsheet [00:06:17] Ready: /Users/kt3k/t/langsheet/tacit.min.css
+langsheet [00:06:17] Ready: source/i18n/*.json
 ```
 
-SS
+Then access `http://localhost:26000/` and you see:
+
+<img src="https://kt3k.github.io/langsheet/media/screenshot.png" />
+
+## Build static site
+
+Hit the command `./node_modules/.bin/lansheet build` and you'll get your site as static html under `build/`
+
+```
+$ ./node_modules/.bin/langsheet
+Requiring external module require-yaml
+Using: /Users/kt3k/example/langsheet.yml
+langsheet [00:18:29] building
+langsheet [00:18:30] done
+tree build/
+build/
+├── index.html
+└── tacit.min.css
+
+0 directories, 2 files
+```
 
 # License
 
