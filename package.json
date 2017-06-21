@@ -1,0 +1,38 @@
+{
+  "name": "m26t",
+  "version": "0.1.0",
+  "description": "Multilingualization DataSheet",
+  "main": "index.js",
+  "scripts": {
+    "test": "kocha test.js",
+    "lint": "standard",
+    "fix": "standard --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kt3k/m26t.git"
+  },
+  "keywords": [
+    "m17n",
+    "static-site-generator"
+  ],
+  "author": "Yoshiya Hinosawa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kt3k/m26t/issues"
+  },
+  "homepage": "https://github.com/kt3k/m26t#readme",
+  "dependencies": {
+    "berber": "^1.1.2",
+    "layout1": "^1.1.0",
+    "lodash": "^4.17.4",
+    "nunjucks": "^3.0.1",
+    "require-yaml": "^0.0.1",
+    "through2": "^2.0.3",
+    "vinyl-accumulate": "^1.4.1"
+  },
+  "devDependencies": {
+    "kocha": "^1.7.0",
+    "standard": "^10.0.2"
+  }
+}

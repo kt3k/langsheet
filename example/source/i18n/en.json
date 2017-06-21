@@ -1,0 +1,6 @@
+{
+  "app.hello": "Hello {name}!",
+  "app.form.email": "Mail address",
+  "app.form.first_name": "First name",
+  "app.form.last_name": "Last name"
+}
