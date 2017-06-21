@@ -1,5 +1,5 @@
 {
-  "app.hello": "{name}, 안녕!",
+  "app.hello": "{name}씨, 안녕하세요!",
   "app.form.email": "메일 주소",
   "app.form.first_name": "이름",
   "app.form.last_name": "성"
