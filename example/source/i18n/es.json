@@ -1,0 +1,6 @@
+{
+  "app.hello": "¡Hola {name}!",
+  "app.form.email": "Correo Electronico",
+  "app.form.first_name": "Nombre de pila",
+  "app.form.last_name": "Apellido"
+}

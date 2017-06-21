@@ -3,9 +3,22 @@
   <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="tacit.min.css" />
+    <title>
+      {% if options.title %}
+        {{ options.title }}
+      {% else %}
+        Language Data Table
+      {% endif %}
+    </title>
   </head>
   <body>
-    <h1>Language Data Sheet</h1>
+    <h1>
+      {% if options.title %}
+        {{ options.title }}
+      {% else %}
+        Language Data Table
+      {% endif %}
+    </h1>
     <article>
       <table>
         <tr>

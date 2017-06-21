@@ -1,11 +1,14 @@
-const { asset, name, on, port, loggerTitle } = require('berber')
+const { asset, name, on, port, debugPagePath, debugPageTitle, loggerTitle } = require('berber')
 const pkg = require('./package')
 const pipeline = require('./pipeline')
 const path = require('path')
 
-name('m26t')
+name(pkg.name)
 
-loggerTitle('m26t')
+loggerTitle(pkg.name)
+
+debugPagePath(`__${pkg.name}__`)
+debugPageTitle(`<i>${pkg.name}</i> debug page`)
 
 on('config', config => {
   if (!config.source) {
@@ -15,7 +18,7 @@ on('config', config => {
 
   port(config.port || 26000)
 
-  pipeline(asset(config.source))
+  pipeline(asset(config.source), config)
 
   asset(path.join(__dirname, 'tacit.min.css')).base(__dirname)
 })

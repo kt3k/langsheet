@@ -1,8 +1,9 @@
 {
-  "name": "m26t",
+  "name": "langsheet",
   "version": "0.1.0",
-  "description": "Multilingualization DataSheet",
+  "description": "Static site generator for creating language x phrase key data table",
   "main": "index.js",
+  "bin": "index.js",
   "scripts": {
     "test": "kocha test.js",
     "lint": "standard",
@@ -10,18 +11,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kt3k/m26t.git"
+    "url": "git+https://github.com/kt3k/langsheet.git"
   },
   "keywords": [
+    "i18n",
     "m17n",
+    "language",
     "static-site-generator"
   ],
   "author": "Yoshiya Hinosawa",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kt3k/m26t/issues"
+    "url": "https://github.com/kt3k/langsheet/issues"
   },
-  "homepage": "https://github.com/kt3k/m26t#readme",
+  "homepage": "https://github.com/kt3k/langsheet#readme",
   "dependencies": {
     "berber": "^1.1.2",
     "layout1": "^1.1.0",

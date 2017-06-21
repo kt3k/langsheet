@@ -10,13 +10,14 @@ const factory = new Table.Factory()
 
 /**
  * @param {AssetFacade} source The source asset
+ * @param {Object} options The options
  * @return {AssetFacade}
  */
-const pipeline = source => source
+const pipeline = (source, options) => source
   .pipe(acc('index.html', { debounce: true }))
   .pipe(through2.obj((file, _, cb) => cb(null, Object.assign(file.clone(), {
     table: factory.createFromVinyls(file.files)
   }))))
-  .pipe(layout1.nunjucks(sourceLayout, { data: { pkg } }))
+  .pipe(layout1.nunjucks(sourceLayout, { data: { pkg, options } }))
 
 module.exports = pipeline
