@@ -2,7 +2,6 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="tacit.min.css" />
     <title>
       {% if options.title %}
         {{ options.title }}
@@ -10,6 +9,7 @@
         Language Data Table
       {% endif %}
     </title>
+    <style>{{ css | safe }}</style>
   </head>
   <body>
     <h1>

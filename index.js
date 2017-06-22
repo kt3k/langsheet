@@ -19,6 +19,4 @@ on('config', config => {
   port(config.port || 26000)
 
   pipeline(asset(config.source), config)
-
-  asset(path.join(__dirname, 'tacit.min.css')).base(__dirname)
 })

@@ -96,7 +96,7 @@ Then access `http://localhost:26000/` and you see:
 
 ## Build static site
 
-Hit the command `./node_modules/.bin/lansheet build` and you'll get your site as static html under `build/`
+Hit the command `./node_modules/.bin/lansheet build` and you'll get your site as a single html file under `build/`
 
 ```
 $ ./node_modules/.bin/langsheet
@@ -104,12 +104,11 @@ Requiring external module require-yaml
 Using: /Users/kt3k/example/langsheet.yml
 langsheet [00:18:29] building
 langsheet [00:18:30] done
-tree build/
+$ tree build/
 build/
-├── index.html
-└── tacit.min.css
+└── index.html
 
-0 directories, 2 files
+0 directories, 1 files
 ```
 
 # License
