@@ -10,4 +10,10 @@ describe('langsheet', () => {
     execSync('node ../index.js build', { cwd: join(__dirname, 'example') })
     assert(existsSync('./example/build/index.html'))
   })
+
+  it('throws if the source option not specified', () => {
+    assert.throws(() => {
+      execSync('node ../index.js build', { cwd: join(__dirname, 'example-fail') })
+    }, Error)
+  })
 })

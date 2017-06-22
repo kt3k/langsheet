@@ -11,6 +11,8 @@ debugPagePath(`__${pkg.name}__`)
 debugPageTitle(`<i>${pkg.name}</i> debug page`)
 
 on('config', config => {
+  config = config || {}
+
   if (!config.source) {
     console.log(`Error: 'source' is not specified.\nSee ${pkg.homepage} for details.`)
     process.exit(1)
