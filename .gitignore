@@ -2,3 +2,7 @@ node_modules
 
 # build dir
 example/build
+
+# nyc
+.nyc_output
+coverage
