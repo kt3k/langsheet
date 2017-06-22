@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const { asset, name, on, port, debugPagePath, debugPageTitle, loggerTitle } = require('berber')
 const pkg = require('./package')
 const pipeline = require('./pipeline')
