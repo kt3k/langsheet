@@ -102,7 +102,7 @@ Then access `http://localhost:26000/` and you see:
 Hit the command `./node_modules/.bin/langsheet build` and you'll get your site as a single html file under `build/`
 
 ```
-$ ./node_modules/.bin/langsheet
+$ ./node_modules/.bin/langsheet build
 Requiring external module require-yaml
 Using: /Users/kt3k/example/langsheet.yml
 langsheet [00:18:29] building
