@@ -99,7 +99,7 @@ Then access `http://localhost:26000/` and you see:
 
 ## Build static site
 
-Hit the command `./node_modules/.bin/lansheet build` and you'll get your site as a single html file under `build/`
+Hit the command `./node_modules/.bin/langsheet build` and you'll get your site as a single html file under `build/`
 
 ```
 $ ./node_modules/.bin/langsheet
