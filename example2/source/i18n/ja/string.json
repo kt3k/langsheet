@@ -1,0 +1,7 @@
+{
+  "app.hello": "こんにちは {name}さん!",
+  "app.form.email": "メールアドレス",
+  "app.form.first_name": "名",
+  "app.form.last_name": "姓",
+  "app.signin": "サインイン"
+}

@@ -12,8 +12,8 @@ class TableFactory {
     const table = new Table()
 
     files.forEach(file => {
-      // Supposes filename is [langTag].json
-      const langTag = basename(file.path, extname(file.path))
+      // Suppose file.relative is langTag
+      const langTag = file.relative.replace(/\.[^/.]+$/, "")
       const data = JSON.parse(file.contents.toString())
 
       table.addLanguageData(new LanguageData(langTag, data))
