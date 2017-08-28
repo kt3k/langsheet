@@ -3,9 +3,12 @@
 [![CircleCI](https://circleci.com/gh/kt3k/langsheet.svg?style=svg)](https://circleci.com/gh/kt3k/langsheet)
 [![codecov](https://codecov.io/gh/kt3k/langsheet/branch/master/graph/badge.svg)](https://codecov.io/gh/kt3k/langsheet)
 
-> Static site generator for creating language x phrase key data table
+> JSON to HTML Table converter
 
-langsheet is a CLI static site generator. langsheet converts the given json files which contain the phrase data for several languages into a single webpage.
+`langsheet` is a static site generator for translation data. `langsheet` converts the given json files which contain the phrase data for several languages into a single webpage.
+
+An example output:
+<img src="https://kt3k.github.io/langsheet/media/screenshot.png" />
 
 # Usage
 
