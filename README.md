@@ -8,7 +8,8 @@
 `langsheet` is a static site generator for translation data. `langsheet` converts the given json files which contain the phrase data for several languages into a single webpage.
 
 An example output:
-<img src="https://kt3k.github.io/langsheet/media/screenshot.png" />
+
+[![](https://kt3k.github.io/langsheet/media/screenshot.png)](https://kt3k.github.io/langsheet/)
 
 # Usage
 
