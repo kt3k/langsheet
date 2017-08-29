@@ -3,7 +3,7 @@
 [![CircleCI](https://circleci.com/gh/kt3k/langsheet.svg?style=svg)](https://circleci.com/gh/kt3k/langsheet)
 [![codecov](https://codecov.io/gh/kt3k/langsheet/branch/master/graph/badge.svg)](https://codecov.io/gh/kt3k/langsheet)
 
-> JSON to HTML Table converter
+> Translation data to HTML Table converter
 
 `langsheet` is a static site generator for translation data. `langsheet` converts the given json files which contain the phrase data for several languages into a single webpage.
 
