@@ -118,6 +118,10 @@ build/
 0 directories, 1 files
 ```
 
+# History
+
+- 2017-12-13   v1.1.1   Add `dest` option.
+
 # License
 
 MIT
