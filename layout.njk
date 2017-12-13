@@ -3,21 +3,13 @@
   <head>
     <meta charset="utf-8" />
     <title>
-      {% if options.title %}
-        {{ options.title }}
-      {% else %}
-        Language Data Table
-      {% endif %}
+      {{ options.title }}
     </title>
     <style>{{ css | safe }}</style>
   </head>
   <body>
     <h1>
-      {% if options.title %}
-        {{ options.title }}
-      {% else %}
-        Language Data Table
-      {% endif %}
+      {{ options.title }}
     </h1>
     <article>
       <table>

@@ -22,7 +22,8 @@ debugPageTitle(`<i>${pkg.name}</i> debug page`)
 
 const defaultConfig = {
   port: 26000,
-  dest: 'build'
+  dest: 'build',
+  title: 'Language Data Table'
 }
 
 on('config', config => {
