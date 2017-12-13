@@ -23,6 +23,8 @@ First, create config file `langsheet.yml`:
 source: data/i18n/*.json
 ```
 
+Here, `source` is the glob pattern of phrase files.
+
 And you have the language json files like the below:
 
 data/i18n/en.json:
@@ -117,6 +119,22 @@ build/
 
 0 directories, 1 files
 ```
+
+## `langsheet.yml`
+
+Full example of langsheet.yml:
+
+```
+source: src/i18n/**/*.*.json
+port: 26000
+dest: build
+title: Language Data Table
+```
+
+- `source` is the glob pattern of source files. Required.
+- `port` is the port number of the dev server. Default is 26000.
+- `dest` is the build destination. Default is `build/`.
+- `title` is the title of built webpage. Default is `Language Data Table`.
 
 # History
 
