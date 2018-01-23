@@ -1,4 +1,4 @@
-# langsheet v1.1.2
+# langsheet v1.2.0
 
 [![CircleCI](https://circleci.com/gh/kt3k/langsheet.svg?style=svg)](https://circleci.com/gh/kt3k/langsheet)
 [![codecov](https://codecov.io/gh/kt3k/langsheet/branch/master/graph/badge.svg)](https://codecov.io/gh/kt3k/langsheet)
