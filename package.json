@@ -33,13 +33,13 @@
     "lodash": "^4.17.4",
     "nunjucks": "^3.0.1",
     "require-yaml": "^0.0.1",
-    "through2": "^2.0.3",
+    "through2": "^3.0.1",
     "vinyl-accumulate": "^1.4.1"
   },
   "devDependencies": {
-    "codecov": "^2.2.0",
+    "codecov": "^3.6.5",
     "kocha": "^1.7.0",
-    "nyc": "^11.0.2",
-    "standard": "^10.0.2"
+    "nyc": "^15.0.1",
+    "standard": "^14.3.3"
   }
 }
