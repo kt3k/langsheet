@@ -138,6 +138,7 @@ title: Language Data Table
 
 # History
 
+- 2020-04-23   v1.4.0   Module gardening. Add tests.
 - 2017-12-13   v1.1.1   Add `dest` option.
 
 # License
