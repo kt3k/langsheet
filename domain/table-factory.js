@@ -1,6 +1,5 @@
 const Table = require('./table')
 const LanguageData = require('./language-data')
-const { basename, extname } = require('path')
 
 class TableFactory {
   /**
@@ -13,7 +12,7 @@ class TableFactory {
 
     files.forEach(file => {
       // Suppose file.relative is langTag
-      const langTag = file.relative.replace(/\.[^/.]+$/, "")
+      const langTag = file.relative.replace(/\.[^/.]+$/, '')
       const data = JSON.parse(file.contents.toString())
 
       table.addLanguageData(new LanguageData(langTag, data))

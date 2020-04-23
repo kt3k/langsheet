@@ -1,6 +1,6 @@
 const { describe, it } = require('kocha')
 const { execSync } = require('child_process')
-const { existsSync } = require('fs')
+const { existsSync, readFileSync } = require('fs')
 const { join } = require('path')
 const assert = require('assert')
 
@@ -9,6 +9,14 @@ describe('langsheet', () => {
     execSync('rm -rf example/build')
     execSync('node ../index.js build', { cwd: join(__dirname, 'example') })
     assert(existsSync('./example/build/index.html'))
+  })
+
+  it('builds same html', () => {
+    execSync('rm -rf example/build')
+    execSync('node ../index.js build', { cwd: join(__dirname, 'example') })
+    const htmlStr = readFileSync('./example/build/index.html', 'utf-8')
+    const builtHtml = readFileSync('./test.html', 'utf-8')
+    assert(htmlStr === builtHtml)
   })
 
   it('throws if the source option not specified', () => {
