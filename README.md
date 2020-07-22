@@ -1,4 +1,4 @@
-# langsheet v1.4.0
+# langsheet v1.4.1
 
 ![CI](https://github.com/kt3k/langsheet/workflows/CI/badge.svg)
 [![codecov](https://codecov.io/gh/kt3k/langsheet/branch/master/graph/badge.svg)](https://codecov.io/gh/kt3k/langsheet)

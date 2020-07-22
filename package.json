@@ -1,6 +1,6 @@
 {
   "name": "langsheet",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "Translation data to HTML Table converter",
   "main": "index.js",
   "bin": "index.js",
