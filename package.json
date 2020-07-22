@@ -7,7 +7,6 @@
   "scripts": {
     "test": "kocha test.js",
     "cov": "nyc --reporter=lcov --reporeter=text-summary npm test",
-    "codecov": "npm run cov && codecov",
     "lint": "standard",
     "fix": "standard --fix"
   },
@@ -37,7 +36,6 @@
     "vinyl-accumulate": "^1.4.1"
   },
   "devDependencies": {
-    "codecov": "^3.6.5",
     "kocha": "^1.7.0",
     "nyc": "^15.0.1",
     "standard": "^14.3.3"
