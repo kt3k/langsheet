@@ -1,6 +1,6 @@
 # langsheet v1.4.0
 
-[![CircleCI](https://circleci.com/gh/kt3k/langsheet.svg?style=svg)](https://circleci.com/gh/kt3k/langsheet)
+![CI](https://github.com/kt3k/langsheet/workflows/CI/badge.svg)
 [![codecov](https://codecov.io/gh/kt3k/langsheet/branch/master/graph/badge.svg)](https://codecov.io/gh/kt3k/langsheet)
 
 > Translation data to HTML Table converter
