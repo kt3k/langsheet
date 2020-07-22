@@ -4,3 +4,4 @@ commit: 'chore(version): bump to v%.%.%'
 files:
   README.md: v%.%.%
   package.json: '"version": "%.%.%"'
+  test.html: '<a href="https://npm.im/langsheet">%.%.%</a>'
